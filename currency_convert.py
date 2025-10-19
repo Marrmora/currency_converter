@@ -21,7 +21,7 @@ def convert_curr():
 
     payload = {}
     headers= {
-    "apikey": "sJ4IeIQVt2PNBC7Frou2YRj2yCykRHDB"
+    "apikey": "your-api=key-here"
     }
 
     response = requests.request("GET", url, headers=headers, data = payload)
